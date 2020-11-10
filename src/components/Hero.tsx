@@ -1,11 +1,12 @@
 import React from 'react';
+import HeroImage from '../assets/svg/HeroImage';
 
 const Hero = (): JSX.Element => {
     return (
         <div className="lg:flex-row lg:max-w-6xl lg:p-0 flex flex-col items-center justify-center flex-1 p-5 mx-auto">
-            <div className="md:w-2/3 lg:w-1/2 group relative w-full pr-10 rounded-lg cursor-pointer">
+            <div className="md:w-2/3 lg:w-1/2 group relative w-full pr-10 rounded-lg">
                 <div className="relative rounded-md">
-                    <img src="/hero.png" className="z-10 object-cover w-full h-full" />
+                    <HeroImage className="z-10 object-cover w-full h-full" />
                 </div>
             </div>
             <div className="lg:w-1/2 sm:px-0 md:px-10 sm:items-center lg:items-start lg:mb-0 container relative z-20 flex flex-col w-full px-5 pr-12 mb-16 text-2xl text-gray-700">
